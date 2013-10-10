@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+
+require 'random-location'
+
+raise "You must provide a latitude, longitude, radius in the stated order" if ARGV.length < 3
+
+coords = RandomLocation.nearby(ARGV[0].to_f, ARGV[1].to_f, ARGV[2].to_i)
+puts "latitude = #{coords[0]}, longitude = #{coords[1]}"
