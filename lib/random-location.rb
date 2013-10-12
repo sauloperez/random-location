@@ -3,7 +3,7 @@ module RandomLocation
 
   METERS_IN_DEGREE = 111_300
 
-  def nearby(lat, lng, r)
+  def near_by(lat, lng, r)
     u = rand
     v = rand
 
