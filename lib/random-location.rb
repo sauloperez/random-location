@@ -3,6 +3,13 @@ module RandomLocation
 
   METERS_IN_DEGREE = 111_300
 
+  #
+  # returns a random location near by the one provided
+  # @param  lat [Float] latitude
+  # @param  lng [Float] longitude
+  # @param  r [Integer] radius in meters
+  #
+  # @return [Array] array containing latitude and longitude of the new location
   def near_by(lat, lng, r)
     u = rand
     v = rand
