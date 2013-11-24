@@ -21,14 +21,13 @@ Once installed, require it:
 
     require 'random-location'
 
-Then use its method specifying the coordinates of the reference point and the radius in meters
+Then, use its method specifying the coordinates of the reference point and the radius in meters
 
     RandomLocation.near_by(41.38506, 2.17340, 10000)
 
 It also comes with a CLI that can be used as follows:
 
     $ random-location 41.38506 2.17340 10000
-
     latitude = 41.41814, longitude = 2.24560
 
 
