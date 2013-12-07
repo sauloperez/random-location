@@ -14,7 +14,7 @@ Installation
 
 Add this line to your application's Gemfile:
 
-    gem 'test'
+    gem 'random-location'
 
 And then execute:
 
